@@ -5,6 +5,8 @@ const logger = require('../logger');
 // random comments here 
 
 // another random comment
+
+//random comment from main
 module.exports = (passport) => {
   passport.use(new LocalStrategy({ usernameField: 'email' },
     async (email, password, done) => {
